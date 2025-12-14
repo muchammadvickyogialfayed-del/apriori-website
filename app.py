@@ -7,7 +7,7 @@ from apriori_algorithm import AprioriAlgorithm
 import io
 
 st.set_page_config(
-    page_title="Apriori Market Basket Analysis",
+    page_title="Analisis Pola Pembelian Mini Market",
     page_icon="",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -136,7 +136,7 @@ st.markdown("""
 # Header
 st.markdown("""
     <div class="main-header">
-        <h1><i class="fas fa-shopping-cart"></i> Market Basket Analysis</h1>
+        <h1><i class="fas fa-shopping-cart"></i> Analisis Pola Pembelian Mini Market</h1>
         <p>Analisis Pola Pembelian Produk Makanan Ringan dengan Algoritma Apriori</p>
     </div>
 """, unsafe_allow_html=True)
