@@ -491,6 +491,7 @@ else:
                     font-family: monospace;
                     font-size;14px;
                     white-space; pre-wrap;
+                    user-select: none;
                 ">
                 TransactionID,Items
                 T001,"Chitato, Oreo, Teh Botol"
