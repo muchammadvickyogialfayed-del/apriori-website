@@ -457,16 +457,18 @@ else:
     with col1:
         st.markdown("""
             <div class="info-card">
-                <h3><i class="fas fa-bullseye"></i> Fitur Utama</h3>
-                <ul>
-                    <li><i class="fas fa-upload"></i> Upload data transaksi CSV</li>
-                    <li><i class="fas fa-cog"></i> Atur parameter support & confidence</li>
-                    <li><i class="fas fa-chart-bar"></i> Lihat frequent itemsets</li>
-                    <li><i class="fas fa-link"></i> Analisis association rules</li>
-                    <li><i class="fas fa-chart-line"></i> Visualisasi interaktif</li>
-                    <li><i class="fas fa-download"></i> Download hasil analisis</li>
-                </ul>
-            </div>
+    <h3 style="color:#000000;">
+        <i class="fas fa-bullseye"></i> Fitur Utama
+    </h3>
+    <ul style="color:#000000;">
+        <li><i class="fas fa-upload"></i> Upload data transaksi CSV</li>
+        <li><i class="fas fa-cog"></i> Atur parameter support & confidence</li>
+        <li><i class="fas fa-chart-bar"></i> Lihat frequent itemsets</li>
+        <li><i class="fas fa-link"></i> Analisis association rules</li>
+        <li><i class="fas fa-chart-line"></i> Visualisasi interaktif</li>
+        <li><i class="fas fa-download"></i> Download hasil analisis</li>
+    </ul>
+</div>
         """, unsafe_allow_html=True)
     
     with col2:
