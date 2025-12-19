@@ -457,53 +457,35 @@ else:
     with col1:
         st.markdown("""
             <div class="info-card">
-    <h3 style="color:#000000;">
-        <i class="fas fa-bullseye"></i> Fitur Utama
-    </h3>
-    <ul style="color:#000000;">
-        <li><i class="fas fa-upload"></i> Upload data transaksi CSV</li>
-        <li><i class="fas fa-cog"></i> Atur parameter support & confidence</li>
-        <li><i class="fas fa-chart-bar"></i> Lihat frequent itemsets</li>
-        <li><i class="fas fa-link"></i> Analisis association rules</li>
-        <li><i class="fas fa-chart-line"></i> Visualisasi interaktif</li>
-        <li><i class="fas fa-download"></i> Download hasil analisis</li>
-    </ul>
-</div>
+                <h3><i class="fas fa-bullseye"></i> Fitur Utama</h3>
+                <ul>
+                    <li><i class="fas fa-upload"></i> Upload data transaksi CSV</li>
+                    <li><i class="fas fa-cog"></i> Atur parameter support & confidence</li>
+                    <li><i class="fas fa-chart-bar"></i> Lihat frequent itemsets</li>
+                    <li><i class="fas fa-link"></i> Analisis association rules</li>
+                    <li><i class="fas fa-chart-line"></i> Visualisasi interaktif</li>
+                    <li><i class="fas fa-download"></i> Download hasil analisis</li>
+                </ul>
+            </div>
         """, unsafe_allow_html=True)
     
-  with col2:
-    st.markdown("""
-    <div class="info-card">
-
-        <h3 style="color:#000000;">
-            <i class="fas fa-clipboard-list"></i> Format DATA CSV
-        </h3>
-
-        <p style="color:#000000;">File CSV harus memiliki 2 kolom:</p>
-
-        <ol style="color:#000000;">
-            <li><strong>TransactionID</strong>: ID unik transaksi</li>
-            <li><strong>Items</strong>: Daftar produk (dipisah koma)</li>
-        </ol>
-
-        <p style="color:#000000;"><strong>Contoh:</strong></p>
-
-        <pre style="
-            background:#f5f5f5;
-            color:#000000;
-            padding:12px;
-            border-radius:6px;
-            font-family: monospace;
-            font-size:14px;
-            white-space: pre-wrap;
-        ">
-TransactionID,Items
-T001,"Chitato, Oreo, Teh Botol"
-T002,"Taro, Pocky, Aqua"
-        </pre>
-
-    </div>
-    """, unsafe_allow_html=True)
+    with col2:
+        st.markdown("""
+            <div class="info-card">
+                <h3><i class="fas fa-clipboard-list"></i> Format Data CSV</h3>
+                <p>File CSV harus memiliki 2 kolom:</p>
+                <ol>
+                    <li><strong>TransactionID</strong>: ID unik transaksi</li>
+                    <li><strong>Items</strong>: Daftar produk (dipisah koma)</li>
+                </ol>
+                <p><strong>Contoh:</strong></p>
+                <code>
+                TransactionID,Items<br>
+                T001,"Chitato, Oreo, Teh Botol"<br>
+                T002,"Taro, Pocky, Aqua"
+                </code>
+            </div>
+        """, unsafe_allow_html=True)
     
     st.markdown("<br>", unsafe_allow_html=True)
     
