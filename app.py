@@ -488,11 +488,19 @@ else:
 
         <p style="color:#000000;"><strong>Contoh:</strong></p>
 
-        <code style="color:#000000;">
-            TransactionID,Items<br>
-            T001,"Chitato, Oreo, Teh Botol"<br>
-            T002,"Taro, Pocky, Aqua"
-        </code>
+        <pre style="
+            background:#f5f5f5;
+            color:#000000;
+            padding:12px;
+            border-radius:6px;
+            font-family: monospace;
+            font-size:14px;
+            white-space: pre-wrap;
+        ">
+TransactionID,Items
+T001,"Chitato, Oreo, Teh Botol"
+T002,"Taro, Pocky, Aqua"
+        </pre>
 
     </div>
     """, unsafe_allow_html=True)
