@@ -471,23 +471,31 @@ else:
 </div>
         """, unsafe_allow_html=True)
     
-    with col2:
-        st.markdown("""
-            <div class="info-card">
-                <h3><i class="fas fa-clipboard-list"></i> Format Data CSV</h3>
-                <p>File CSV harus memiliki 2 kolom:</p>
-                <ol>
-                    <li><strong>TransactionID</strong>: ID unik transaksi</li>
-                    <li><strong>Items</strong>: Daftar produk (dipisah koma)</li>
-                </ol>
-                <p><strong>Contoh:</strong></p>
-                <code>
-                TransactionID,Items<br>
-                T001,"Chitato, Oreo, Teh Botol"<br>
-                T002,"Taro, Pocky, Aqua"
-                </code>
-            </div>
-        """, unsafe_allow_html=True)
+  with col2:
+    st.markdown("""
+    <div class="info-card">
+
+        <h3 style="color:#000000;">
+            <i class="fas fa-clipboard-list"></i> Format DATA CSV
+        </h3>
+
+        <p style="color:#000000;">File CSV harus memiliki 2 kolom:</p>
+
+        <ol style="color:#000000;">
+            <li><strong>TransactionID</strong>: ID unik transaksi</li>
+            <li><strong>Items</strong>: Daftar produk (dipisah koma)</li>
+        </ol>
+
+        <p style="color:#000000;"><strong>Contoh:</strong></p>
+
+        <code style="color:#000000;">
+            TransactionID,Items<br>
+            T001,"Chitato, Oreo, Teh Botol"<br>
+            T002,"Taro, Pocky, Aqua"
+        </code>
+
+    </div>
+    """, unsafe_allow_html=True)
     
     st.markdown("<br>", unsafe_allow_html=True)
     
