@@ -457,8 +457,10 @@ else:
     with col1:
         st.markdown("""
             <div class="info-card">
-                <h3><i class="fas fa-bullseye"></i> Fitur Utama</h3>
-                <ul>
+                <h3 style="color:#000000;">
+                    <i class="fass fa-bullseye"></i> Fitur Utama
+                </h3>
+                <ul style="color:#000000;">
                     <li><i class="fas fa-upload"></i> Upload data transaksi CSV</li>
                     <li><i class="fas fa-cog"></i> Atur parameter support & confidence</li>
                     <li><i class="fas fa-chart-bar"></i> Lihat frequent itemsets</li>
