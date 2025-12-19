@@ -482,12 +482,18 @@ else:
                     <li><strong>TransactionID</strong>: ID unik transaksi</li>
                     <li><strong>Items</strong>: Daftar produk (dipisah koma)</li>
                 </ol>
-                <p><strong>Contoh:</strong></p>
-                <code>
+                <p style="color:#000000;"><strong>Contoh:</strong></p>
+                <div style="
+                    background:#f5f5f5;
+                    color:#000000;
+                    padding:12px;
+                    border-radius:6px;
+                    font-family: monospace;
+                    font-size;14px;
+                ">
                 TransactionID,Items<br>
                 T001,"Chitato, Oreo, Teh Botol"<br>
                 T002,"Taro, Pocky, Aqua"
-                </code>
             </div>
         """, unsafe_allow_html=True)
     
