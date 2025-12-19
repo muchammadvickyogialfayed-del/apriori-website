@@ -483,18 +483,19 @@ else:
                     <li><strong>Items</strong>: Daftar produk (dipisah koma)</li>
                 </ol>
                 <p style="color:#000000;"><strong>Contoh:</strong></p>
-                <div style="
+                <pre style="
                     background:#f5f5f5;
                     color:#000000;
                     padding:12px;
                     border-radius:6px;
                     font-family: monospace;
                     font-size;14px;
+                    white-space; pre-wrap;
                 ">
-                TransactionID,Items<br>
-                T001,"Chitato, Oreo, Teh Botol"<br>
+                TransactionID,Items
+                T001,"Chitato, Oreo, Teh Botol"
                 T002,"Taro, Pocky, Aqua"
-            </div>
+            </pre>
         """, unsafe_allow_html=True)
     
     st.markdown("<br>", unsafe_allow_html=True)
