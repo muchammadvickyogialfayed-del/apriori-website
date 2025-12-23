@@ -500,7 +500,6 @@ else:
 st.markdown("<br><br>", unsafe_allow_html=True)
 st.markdown("""
     <div style="text-align: center; padding: 2rem; color: #666;">
-        <p><i class="fas fa-chart-bar"></i> Market Basket Analysis dengan Algoritma Apriori</p>
-        <p style="font-size: 0.9rem;">Dibuat untuk analisis pola pembelian minimarket</p>
+        <p><i class="fas fa-chart-bar"></i> Dibuat untuk analisis pola pembelian minimarket</p>
     </div>
 """, unsafe_allow_html=True)
